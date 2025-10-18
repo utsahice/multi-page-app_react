@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom';
-import { blogPosts } from './data';
+import { Link } from 'react-router-dom'
+import { blogPosts } from './data'
 
 function BlogList() {
   return (
@@ -13,7 +13,7 @@ function BlogList() {
         ))}
       </ul>
     </div>
-  );
+  )
 }
 
-export default BlogList;
+export default BlogList

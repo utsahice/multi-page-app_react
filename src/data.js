@@ -14,4 +14,4 @@ export const blogPosts = [
     title: 'Post 3',
     content: 'Redux is a popular state management library...',
   },
-];
+]
