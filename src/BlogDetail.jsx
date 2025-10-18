@@ -3,7 +3,7 @@ import { blogPosts } from './data';
 
 function BlogDetail() {
   const { id } = useParams();
-  const post = blogPosts.find(p => p.id === id);
+  const post = blogPosts.find((p) => p.id === id);
 
   if (!post) return <h2>Blog not found!</h2>;
 

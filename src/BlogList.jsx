@@ -6,7 +6,7 @@ function BlogList() {
     <div>
       <h1>Blog Posts</h1>
       <ul>
-        {blogPosts.map(post => (
+        {blogPosts.map((post) => (
           <li key={post.id}>
             <Link to={`/blog/${post.id}`}>{post.title}</Link>
           </li>
